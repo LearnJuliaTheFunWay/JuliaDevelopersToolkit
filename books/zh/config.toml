@@ -1,0 +1,13 @@
+[projects]
+
+  # Default project, used when calling serve() or pdf().
+  [projects.default]
+  contents = [
+      "main"
+  ]
+
+  # Output pdf or docx filename.
+  output_filename = "analysis"
+
+  # Port used by serve().
+  port = 8010

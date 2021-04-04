@@ -1,0 +1,4 @@
+name = "JuliaDevelopersToolkit"
+uuid = "87ae80f2-9a2a-4fe6-8e87-4661785be4b7"
+authors = ["Jun Tian <tianjun.cpp@gmail.com>"]
+version = "0.1.0"
