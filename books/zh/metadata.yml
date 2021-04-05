@@ -24,11 +24,16 @@ geometry:
   - bottom=28mm
 
 # A setting for the PDF. I don't know whether it is important.
-lang: zh-CN
+lang: en-US
+
+CJKmainfont: Noto Serif CJK SC
+CJKoptions:
+  - BoldFont=Noto Sans CJK SC
+  - ItalicFont=Noto Sans Mono CJK SC
 
 tags: [pandoc, JuliaLang]
 number-sections: true
-mainfont: DejaVu Sans
+# mainfont: DejaVu Sans
 
 # This font contains unicode characters.
 monofont: Source Code Pro

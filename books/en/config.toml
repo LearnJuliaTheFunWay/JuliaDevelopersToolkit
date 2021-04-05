@@ -11,3 +11,6 @@
 
   # Port used by serve().
   port = 8011
+
+  # Prefix for GitHub Pages links.
+  online_url_prefix = "JuliaDevelopersToolkit/en"
