@@ -1,9 +1,6 @@
 using Books
 using JuliaDevelopersToolkit
 
-https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKsc-hinted.zip
-https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKsc-hinted.zip
-
 function install_fonts()
     run(`wget -q -O tmp.zip https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKsc-hinted.zip`)
     run(`unzip tmp.zip ~/.fonts`)
