@@ -39,10 +39,10 @@ jobs:
           mkdir build
           cd en
           julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../build
+          mv build ../build/en
           cd ../zh
           julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../build
+          mv build ../build/zh
 
       - name: Deploy to secondary branch
         if: ${{ github.event_name == 'push' }}
