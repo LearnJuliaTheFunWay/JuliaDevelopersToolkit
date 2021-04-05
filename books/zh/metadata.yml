@@ -29,7 +29,7 @@ lang: en-US
 CJKmainfont: Noto Serif CJK SC
 CJKoptions:
   - BoldFont=Noto Sans CJK SC
-  - ItalicFont=Noto Sans Mono CJK SC
+  - ItalicFont=Noto Sans CJK SC
 
 tags: [pandoc, JuliaLang]
 number-sections: true
