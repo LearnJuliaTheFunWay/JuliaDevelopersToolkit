@@ -10,16 +10,24 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Books]]
-deps = ["Compose", "DataFrames", "Latexify", "LiveServer", "Markdown", "Memoize", "Requires", "TOML", "Tectonic", "YAML", "pandoc_crossref_jll", "pandoc_jll"]
-git-tree-sha1 = "771d700e310a66e43fbf224a2d0ca6b87bc6fbcc"
+deps = ["CodeTracking", "Compose", "DataFrames", "Latexify", "LiveServer", "Markdown", "Memoize", "Requires", "TOML", "Tectonic", "YAML", "pandoc_crossref_jll", "pandoc_jll"]
+git-tree-sha1 = "794a72177b6ce181c446dfd941bef62999d4106e"
+repo-rev = "main"
+repo-url = "https://github.com/rikhuijzer/Books.jl.git"
 uuid = "939d5c6b-51ae-42e7-97ca-7564d0d4ad91"
-version = "0.3.2"
+version = "0.3.4"
 
 [[CategoricalArrays]]
 deps = ["DataAPI", "Future", "JSON", "Missings", "Printf", "Statistics", "StructTypes", "Unicode"]
 git-tree-sha1 = "f713d583d10fc036252fd826feebc6c173c522a8"
 uuid = "324d7699-5711-5eae-9e2f-1d82baa6b597"
 version = "0.9.5"
+
+[[CodeTracking]]
+deps = ["InteractiveUtils", "UUIDs"]
+git-tree-sha1 = "8ad457cfeb0bca98732c97958ef81000a543e73e"
+uuid = "da1fd8a2-8d9e-5ec2-8556-3022fb5608a2"
+version = "1.0.5"
 
 [[ColorTypes]]
 deps = ["FixedPointNumbers", "Random"]

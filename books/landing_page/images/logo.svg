@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64pt" height="64pt" viewBox="0 0 64 64" version="1.1">
+<g id="surface155">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(79.6%,23.5%,20%);fill-opacity:1;" d="M 0 40 L 32 40 L 16 56 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(22%,59.6%,14.9%);fill-opacity:1;" d="M 48 56 L 32 40 L 16 56 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(58.4%,34.5%,69.8%);fill-opacity:1;" d="M 48 56 L 32 40 L 64 40 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(25.1%,38.8%,84.7%);fill-opacity:1;" d="M 16 40 L 32 40 L 32 8 L 16 24 "/>
+</g>
+</svg>

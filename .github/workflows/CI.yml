@@ -36,13 +36,12 @@ jobs:
       - name: Build books
         run: |
           cd books
-          mkdir build
           cd en
           julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../build/en
+          mv build ../landing_page/en
           cd ../zh
           julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../build/zh
+          mv build ../landing_page/zh
 
       - name: Deploy to secondary branch
         if: ${{ github.event_name == 'push' }}
@@ -50,4 +49,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           force_orphan: true
-          publish_dir: ./books/build/
+          publish_dir: ./books/landing_page/
