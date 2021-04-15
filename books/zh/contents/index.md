@@ -8,8 +8,7 @@
 速上手Julia。本书是基于
 [Books.jl](https://github.com/rikhuijzer/Books.jl)
 构建的，你可以在
-[这里](https://learnjuliathefunway.com/JuliaDevelopersToolkit/zh/Julia开发者的工
-具箱.pdf)
+[这里](https://learnjuliathefunway.com/JuliaDevelopersToolkit/zh/Julia开发者的工具箱.pdf)
 下载本书的PDF版本，此外，也可以在
 [这里](https://github.com/LearnJuliaTheFunWay/JuliaDevelopersToolkit)
 查看本书的源码。
