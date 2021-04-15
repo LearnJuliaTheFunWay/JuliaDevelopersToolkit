@@ -2,6 +2,7 @@
 title: Julia Developer's Toolkit
 subtitle: Your ultimate guide for exploring and building Julia packages!
 author: Jun Tian
+title-prefix: ""
 
 # This affects things as whether to include a white page before each chapter in the PDF.
 # See the `.tex` template for more information.

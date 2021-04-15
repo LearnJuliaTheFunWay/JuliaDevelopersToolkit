@@ -2,6 +2,7 @@
 title: Julia 开发者的工具箱
 subtitle: 探索和构建 Julia 包的终极指南
 author: 田俊
+title-prefix: ""
 
 # This affects things as whether to include a white page before each chapter in the PDF.
 # See the `.tex` template for more information.
