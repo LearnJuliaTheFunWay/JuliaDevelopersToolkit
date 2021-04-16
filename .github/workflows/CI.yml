@@ -41,7 +41,7 @@ jobs:
         run: julia --project -e 'using JuliaDevelopersToolkit; JuliaDevelopersToolkit.build()'
 
       - name: Deploy to secondary branch
-        if: ${{ github.event_name == 'push' }}
+        # if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
