@@ -17,6 +17,10 @@
   # Prefix for GitHub Pages links.
   online_url_prefix = "JuliaDevelopersToolkit"
 
+  # Extra directories to copy into build each iteration of serve and when building site.
+  copy_directories = [
+    "images"
+  ]
 
 
   [projects.zh]
@@ -32,3 +36,8 @@
 
   # Prefix for GitHub Pages links.
   online_url_prefix = "JuliaDevelopersToolkit/zh"
+
+  # Extra directories to copy into build each iteration of serve and when building site.
+  extra_directories = [
+    "images"
+  ]

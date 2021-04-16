@@ -8,4 +8,4 @@ hi from main_zh
 _gen/greet.md
 ```
 
-![Logo](/images/logo_512x512.png)
+![Logo](images/logo_512x512.png)
