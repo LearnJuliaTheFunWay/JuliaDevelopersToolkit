@@ -4,6 +4,16 @@ using Books
 
 greet() = "Hello World!"
 
+function move_homepage_files(build_dir)
+    from_dir = pkgdir(JuliaDevelopersToolkit)
+    from_file(file) = joinpath(from_dir, file)
+    to_file(file) = joinpath(build_dir, file)
+    copy(file) = cp(from_file(file), to_file(file))
+
+    files = ["manifest.json", "custom.css"]
+    copy.(files)
+end
+
 function build()
     println("Running gen(; M=JuliaDevelopersToolkit, project=\"default\")")
     M = JuliaDevelopersToolkit
@@ -31,6 +41,8 @@ function build()
     index_from = joinpath(en_dir, "index.html")
     index_to = joinpath(build_dir, "index.html")
     mv(index_from, index_to; force=true)
+    move_homepage_files(build_dir)
+    nothing
 end
 
 end # module
