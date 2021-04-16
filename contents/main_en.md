@@ -1,4 +1,4 @@
-# Hi!
+# Hi! {#sec:hi}
 
 Hi from main_en.
 

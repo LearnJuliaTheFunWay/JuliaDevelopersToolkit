@@ -4,13 +4,13 @@ using Books
 
 greet() = "Hello World!"
 
-function move_homepage_files(build_dir)
-    from_dir = pkgdir(JuliaDevelopersToolkit)
+function copy_homepage_files(build_dir)
+    from_dir = joinpath(pkgdir(JuliaDevelopersToolkit), "homepage")
     from_file(file) = joinpath(from_dir, file)
     to_file(file) = joinpath(build_dir, file)
     copy(file) = cp(from_file(file), to_file(file))
 
-    files = ["manifest.json", "custom.css"]
+    files = ["index.html", "manifest.json", "custom.css"]
     copy.(files)
 end
 
@@ -36,12 +36,7 @@ function build()
     mv(tmp_zh_dir, zh_dir; force=true)
     mv(tmp_en_dir, en_dir; force=true)
 
-    # This index file should be the multilingual file, so we can copy it from either the EN
-    # or ZH project.
-    index_from = joinpath(en_dir, "index.html")
-    index_to = joinpath(build_dir, "index.html")
-    mv(index_from, index_to; force=true)
-    move_homepage_files(build_dir)
+    copy_homepage_files(build_dir)
     nothing
 end
 

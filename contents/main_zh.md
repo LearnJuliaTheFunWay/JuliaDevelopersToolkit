@@ -1,4 +1,4 @@
-# Hi!
+# Hi! {#sec:hi}
 
 hi from main_zh
 
