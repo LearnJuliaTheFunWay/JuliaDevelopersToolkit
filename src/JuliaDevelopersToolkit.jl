@@ -8,7 +8,7 @@ function copy_homepage_files(build_dir)
     from_dir = joinpath(pkgdir(JuliaDevelopersToolkit), "homepage")
     from_file(file) = joinpath(from_dir, file)
     to_file(file) = joinpath(build_dir, file)
-    copy(file) = cp(from_file(file), to_file(file))
+    copy(file) = cp(from_file(file), to_file(file); force=true)
 
     files = ["index.html", "manifest.json", "custom.css", "images"]
     copy.(files)
