@@ -31,6 +31,10 @@ jobs:
             ${{ runner.os }}-test-
             ${{ runner.os }}-
 
+      - name: Install Books.jl#main
+        run: julia --project -e 'using Pkg;
+          Pkg.add(url="https://github.com/rikhuijzer/Books.jl#main");'
+
       - uses: julia-actions/julia-runtest@v1
 
       - name: Install dependencies
