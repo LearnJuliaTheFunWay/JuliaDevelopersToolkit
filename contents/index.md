@@ -8,7 +8,7 @@
   gtag('config', 'G-H1EF16DE4J');
 </script>
 
-This is the homepage.
+Hi from index.md.
 
 <div class="container">
         <ul class="nav justify-content-end">
