@@ -25,6 +25,7 @@ function build()
     # Build ZH project and put it in temporary directory.
     Books.build_all(; project="zh")
     tmp_zh_dir = joinpath(pkgdir(M), "tmp_zh")
+    build_dir = joinpath(pkgdir(M), "build")
     mv(build_dir, tmp_zh_dir; force=true)
 
     # Build EN project and put ZH project in a subdir of build.
