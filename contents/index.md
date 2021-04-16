@@ -8,8 +8,9 @@
   gtag('config', 'G-H1EF16DE4J');
 </script>
 
-<body>
-    <div class="container">
+This is the homepage.
+
+<div class="container">
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="navbar-brand navbar-toggler" id="translation">
@@ -110,4 +111,3 @@
 
     <!-- add buttons -->
     <script async src="https://unpkg.com/wired-elements/lib/wired-elements-iife.js"></script>
-</body>
