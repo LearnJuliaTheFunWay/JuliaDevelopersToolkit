@@ -17,6 +17,8 @@
   # Prefix for GitHub Pages links.
   online_url_prefix = "JuliaDevelopersToolkit/en"
 
+
+
   [projects.zh]
   contents = [
     "main_zh"
@@ -27,3 +29,6 @@
 
   # Port used by serve(project="zh").
   port = 8012
+
+  # Prefix for GitHub Pages links.
+  online_url_prefix = "JuliaDevelopersToolkit/zh"
