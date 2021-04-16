@@ -2,4 +2,4 @@
 
 [//]: # (This file is only included on the website.)
 
-Hi from index.md.
+This content is overwritten online and only visible when running the website locally.

@@ -15,7 +15,7 @@
   port = 8011
 
   # Prefix for GitHub Pages links.
-  online_url_prefix = "JuliaDevelopersToolkit/en"
+  online_url_prefix = "JuliaDevelopersToolkit"
 
 
 
