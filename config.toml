@@ -15,7 +15,7 @@
   port = 8011
 
   # Prefix for GitHub Pages links.
-  online_url_prefix = "JuliaDevelopersToolkit"
+  online_url_prefix = "JuliaDevelopersToolkit/en"
 
   # Extra directories to copy into build each iteration of serve and when building site.
   copy_directories = [
