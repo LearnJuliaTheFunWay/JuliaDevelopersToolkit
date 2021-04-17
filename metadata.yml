@@ -28,6 +28,8 @@ lang: en-US
 
 tags: [pandoc, JuliaLang]
 number-sections: true
+
+# This font appears to not support ZH characters.
 mainfont: DejaVu Sans
 
 # This font contains unicode characters.

@@ -1,0 +1,47 @@
+# The EN and ZH version can be served at the same time.
+
+[projects]
+
+  # Default project, used when calling serve() or pdf().
+  [projects.default]
+  homepage_contents = "index_en"
+
+  contents = [
+    "main_en"
+  ]
+
+  # Output pdf or docx filename.
+  output_filename = "Julia_Developers_Toolkit"
+
+  # Port used by serve().
+  port = 8011
+
+  # Prefix for GitHub Pages links.
+  online_url_prefix = "JuliaDevelopersToolkit/en"
+
+  # Extra directories to copy into build each iteration of serve and when building site.
+  copy_directories = [
+    "images"
+  ]
+
+
+  [projects.zh]
+  homepage_contents = "index_zh"
+
+  contents = [
+    "main_zh"
+  ]
+
+  # Output pdf or docx filename.
+  output_filename = "Julia_Developers_Toolkit_ZH"
+
+  # Port used by serve(project="zh").
+  port = 8012
+
+  # Prefix for GitHub Pages links.
+  online_url_prefix = "JuliaDevelopersToolkit/zh"
+
+  # Extra directories to copy into build each iteration of serve and when building site.
+  extra_directories = [
+    "images"
+  ]

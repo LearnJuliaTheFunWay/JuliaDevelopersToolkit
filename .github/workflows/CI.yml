@@ -18,7 +18,7 @@ jobs:
 
       - uses: julia-actions/setup-julia@v1
         with:
-          version: '^1.6.0-0'
+          version: '1.6'
 
       - uses: actions/cache@v1
         env:
@@ -33,20 +33,22 @@ jobs:
 
       - uses: julia-actions/julia-runtest@v1
 
+      - name: Install Books.jl#main
+        run: julia --project -e 'using Pkg;
+          Pkg.add(url="https://github.com/rikhuijzer/Books.jl#main");'
+
+      - name: Install dependencies
+        run: julia --project -e 'using Pkg; Pkg.instantiate();
+                using Books; Books.install_dependencies()'
+
       - name: Build books
-        run: |
-          cd books
-          cd en
-          julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../landing_page/en
-          cd ../zh
-          julia --project -e 'using Pkg; Pkg.instantiate(); include("build.jl")'
-          mv build ../landing_page/zh
+        run: julia --project -e 'using JuliaDevelopersToolkit; JuliaDevelopersToolkit.build()'
 
       - name: Deploy to secondary branch
-        if: ${{ github.event_name == 'push' }}
+        # Allow build preview to succeed.
+        # if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           force_orphan: true
-          publish_dir: ./books/landing_page/
+          publish_dir: ./build/
