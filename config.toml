@@ -4,6 +4,8 @@
 
   # Default project, used when calling serve() or pdf().
   [projects.default]
+  homepage_contents = "index_en"
+
   contents = [
     "main_en"
   ]
@@ -24,6 +26,8 @@
 
 
   [projects.zh]
+  homepage_contents = "index_zh"
+
   contents = [
     "main_zh"
   ]
