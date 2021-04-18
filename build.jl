@@ -14,13 +14,13 @@ function build()
     Books.is_ci() && install_fonts()
 
     @info "building default Chinese version..."
-    mkdir("build")
+    mkpath("build")
     gen(; M=JuliaDevelopersToolkit, project="default", fail_on_error=true)
     Books.build_all(; project="default")
     mv("build", "homepage/zh"; force=true)
 
     @info "building English version..."
-    mkdir("build")
+    mkpath("build")
     gen(; M=JuliaDevelopersToolkit, project="en", fail_on_error=true)
     Books.build_all(; project="en")
     mv("build", "homepage/en"; force=true)
