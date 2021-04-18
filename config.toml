@@ -3,7 +3,7 @@
 [projects]
 
   # Default project, used when calling serve() or pdf().
-  [projects.default]
+  [projects.en]
   homepage_contents = "index_en"
 
   contents = [
@@ -20,12 +20,12 @@
   online_url_prefix = "JuliaDevelopersToolkit/en"
 
   # Extra directories to copy into build each iteration of serve and when building site.
-  copy_directories = [
-    "images"
+  extra_directories = [
+    "resources"
   ]
 
 
-  [projects.zh]
+  [projects.default]
   homepage_contents = "index_zh"
 
   contents = [
@@ -43,5 +43,5 @@
 
   # Extra directories to copy into build each iteration of serve and when building site.
   extra_directories = [
-    "images"
+    "resources"
   ]

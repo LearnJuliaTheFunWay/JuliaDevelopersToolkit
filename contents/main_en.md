@@ -6,4 +6,4 @@ Hi from main_en.
 _gen/greet.md
 ```
 
-![Logo](images/logo_512x512.png)
+![Logo](resources/images/logo_192x192.png)

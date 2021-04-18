@@ -33,16 +33,12 @@ jobs:
 
       - uses: julia-actions/julia-runtest@v1
 
-      - name: Install Books.jl#main
-        run: julia --project -e 'using Pkg;
-          Pkg.add(url="https://github.com/rikhuijzer/Books.jl#main");'
-
       - name: Install dependencies
         run: julia --project -e 'using Pkg; Pkg.instantiate();
                 using Books; Books.install_dependencies()'
 
       - name: Build books
-        run: julia --project -e 'using JuliaDevelopersToolkit; JuliaDevelopersToolkit.build()'
+        run: julia --project build.jl
 
       - name: Deploy to secondary branch
         # Allow build preview to succeed.
@@ -51,4 +47,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           force_orphan: true
-          publish_dir: ./build/
+          publish_dir: ./homepage/

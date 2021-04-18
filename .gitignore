@@ -1,7 +1,4 @@
 build/
-books/landing_page/zh/
-books/landing_page/en/
+homepage/zh/
+homepage/en/
 _gen
-tmp_en/
-tmp_zh/
-Manifest.toml

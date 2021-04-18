@@ -31,6 +31,7 @@ number-sections: true
 
 # This font appears to not support ZH characters.
 mainfont: DejaVu Sans
+CJKmainfont: Noto Serif CJK SC
 
 # This font contains unicode characters.
 monofont: Source Code Pro
