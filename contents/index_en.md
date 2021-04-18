@@ -1,5 +1,7 @@
 # Welcome {-}
 
+![There is no royal road to learning.](resources/images/logo_192x192.png)
+
 This little book is the supplementary material of my next book [Learn Julia The
 Fun Way](https://learnjuliathefunway.com/). The main goal of this book is to
 help new Julia users setup development environment and learn how to explore and
@@ -13,5 +15,5 @@ If you find anything incorrect or would like to suggest improvements, it is
 appreciated to file an issue
 [here](https://github.com/LearnJuliaTheFunWay/JuliaDevelopersToolkit/issues).
 This material is released under [CC BY-NC-ND
-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Pleas contact me if
+4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please contact me if
 you'd like to cooperate in some way.
