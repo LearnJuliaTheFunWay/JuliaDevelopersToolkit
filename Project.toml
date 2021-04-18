@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 Books = "939d5c6b-51ae-42e7-97ca-7564d0d4ad91"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
 [compat]
 Books = "0.3"
