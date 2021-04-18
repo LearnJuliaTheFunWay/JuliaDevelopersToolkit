@@ -2,10 +2,9 @@
 
 这本小册子是[我](https://github.com/findmyway)正在写的一本书[《趣学
 Julia》](https://learnjuliathefunway.com/)的补充材料，其主要目的是帮助大家配置好
-本地开发环境，了解如何探索和构建包，以便快速上手Julia。本书是基于
-[Books.jl](https://github.com/rikhuijzer/Books.jl)构建的，你可以在[这
-里](https://learnjuliathefunway.com/JuliaDevelopersToolkit/zh/Julia开发者的工具
-箱.pdf)下载本书的PDF版本，此外，也可以在[这
+本地开发环境，了解如何探索和构建包，以便快速上手Julia。本网站和本书的
+[PDF](https://learnjuliathefunway.com/JuliaDevelopersToolkit/zh/Julia_Developers_Toolkit_ZH.pdf)
+版本是基于[Books.jl](https://github.com/rikhuijzer/Books.jl)构建的，你可以在[这
 里](https://github.com/LearnJuliaTheFunWay/JuliaDevelopersToolkit)查看本书的源
 码。
 

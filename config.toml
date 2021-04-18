@@ -14,7 +14,7 @@
   ]
 
   # Output pdf or docx filename.
-  output_filename = "Julia_Developers_Toolkit"
+  output_filename = "Julia_Developers_Toolkit_EN"
 
   # Port used by serve().
   port = 8011
