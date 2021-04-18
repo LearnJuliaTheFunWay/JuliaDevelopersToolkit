@@ -34,7 +34,8 @@
   metadata_path = "metadata_zh.yml"
 
   contents = [
-    "main_zh"
+    "prepare_environment_zh",
+    "REPL_zh"
   ]
 
   # Output pdf or docx filename.
