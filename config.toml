@@ -6,6 +6,9 @@
   [projects.en]
   homepage_contents = "index_en"
 
+  metadata_path = "metadata_en.yml"
+
+
   contents = [
     "main_en"
   ]
@@ -27,6 +30,8 @@
 
   [projects.default]
   homepage_contents = "index_zh"
+
+  metadata_path = "metadata_zh.yml"
 
   contents = [
     "main_zh"
