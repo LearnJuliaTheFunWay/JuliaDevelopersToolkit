@@ -11,11 +11,11 @@ uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Books]]
 deps = ["CodeTracking", "Compose", "DataFrames", "Latexify", "LiveServer", "Markdown", "Memoize", "Requires", "TOML", "Tectonic", "YAML", "pandoc_crossref_jll", "pandoc_jll"]
-git-tree-sha1 = "28505e4a4ec3ba69090da145b8ed5b00589b78ba"
+git-tree-sha1 = "9fce7beeefb6e56b23a9f91d9989a43495421498"
 repo-rev = "main"
 repo-url = "https://github.com/rikhuijzer/Books.jl.git"
 uuid = "939d5c6b-51ae-42e7-97ca-7564d0d4ad91"
-version = "0.4.0"
+version = "0.4.1"
 
 [[CategoricalArrays]]
 deps = ["DataAPI", "Future", "JSON", "Missings", "Printf", "Statistics", "StructTypes", "Unicode"]
