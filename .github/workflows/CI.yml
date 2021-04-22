@@ -41,8 +41,7 @@ jobs:
         run: julia --project build.jl
 
       - name: Deploy to secondary branch
-        # Allow build preview to succeed.
-        # if: ${{ github.event_name != 'pull_request' }}
+        if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
