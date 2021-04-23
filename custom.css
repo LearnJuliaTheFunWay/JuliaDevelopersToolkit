@@ -1,0 +1,64 @@
+body {
+    background-color:#FFF4D9;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+a:link {
+  color: #212529; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #212529;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#logo-svg {
+    width: 200px;
+    height: 200px;
+    margin: 3rem 0;
+}
+
+.nav {
+  margin-bottom: 3rem;
+  padding: 10px;
+}
+
+wired-button {
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 576px) {
+  h1.book-title {
+    font-size: 2rem;
+  }
+
+  p.book-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  h1.book-title {
+    font-size: 4rem;
+  }
+
+  p.book-subtitle {
+    font-size: 2rem;
+  }
+}

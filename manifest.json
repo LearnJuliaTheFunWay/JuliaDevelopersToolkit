@@ -1,0 +1,22 @@
+{
+  "short_name": "Learn Julia The Fun Way",
+  "name": "Learn Julia The Fun Way: Exploring Game AI With Examples",
+  "icons": [
+    {
+      "src": "/images/logo_192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/logo_512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFF4D9",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#FFF4D9",
+  "description": "Learn Julia The Fun Way"
+}
